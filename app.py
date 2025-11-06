@@ -5,7 +5,7 @@ url = "https://dog.ceo/api/breeds/image/random"
 
 
 #Titulo da página
-st.markdown("<h1 style='text-align: center'>Gerador de cachorros</h1>", unsafe_allow_html=True)
+st.markdown("<h1 style='text-align: center'>Gerador Aleatório de Imagens de Cachorros</h1>", unsafe_allow_html=True)
 
 ### Colunas ###
 col1, col2, col3 = st.columns(3)
@@ -32,6 +32,7 @@ https://github.com/srluizz/gerador-cachorros-streamlit">GitHub</a>
     """,
     unsafe_allow_html=True
 )
+
 
 
 
