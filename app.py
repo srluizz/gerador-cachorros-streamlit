@@ -4,6 +4,9 @@ import requests
 url = "https://dog.ceo/api/breeds/image/random"
 
 
+#Configuração da página (Titulo da aba e layout centraliado)
+st.set_page_config(page_title="🐶 Gerador Aleatório de Imagens de Cachorros ", layout="centered")
+
 #Titulo da página
 st.markdown("<h1 style='text-align: center'>Gerador Aleatório de Imagens de Cachorros</h1>", unsafe_allow_html=True)
 
@@ -32,6 +35,7 @@ https://github.com/srluizz/gerador-cachorros-streamlit">GitHub</a>
     """,
     unsafe_allow_html=True
 )
+
 
 
 
