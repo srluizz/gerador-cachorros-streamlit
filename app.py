@@ -27,10 +27,11 @@ st.markdown(
     <hr>
     <p style='text-align: center; color: gray; font-size: 14px;'>
         Desenvolvido por <b>Luiz Roberto</b> 🐾 | Dados da API: <a href='https://dog.ceo/dog-api/' target='_blank'>Dog CEO</a> | <a href="
-https://github.com/srluizz/gerador-cachorros-streamlit">Repositório</a>
+https://github.com/srluizz/gerador-cachorros-streamlit">GitHub</a>
     </p>
     """,
     unsafe_allow_html=True
 )
+
 
 
